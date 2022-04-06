@@ -33,15 +33,11 @@ You are tasked with developing searches, custom reports and alerts to monitor Va
        - UPLOAD_MEGABITS
        - ratio
 
-Hint: Use the following format when for the table command: | table fieldA  fieldB fieldC
 
-
-Answer the following questions:
+**Answer the following questions:**
 
 Based on the report created, what is the approximate date and time of the attack?
 How long did it take your systems to recover?
-
-
 
 Submit a screen shot of your report and the answer to the questions above.
 
