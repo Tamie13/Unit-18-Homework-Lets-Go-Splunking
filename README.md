@@ -27,11 +27,11 @@ You are tasked with developing searches, custom reports and alerts to monitor Va
     -  Using the eval command, create a field called ratio that shows the ratio between the upload and download speeds.
     -  Create a report using the Splunk's table command to display the following fields in a statistics report:
 
-_time
-IP_ADDRESS
-DOWNLOAD_MEGABITS
-UPLOAD_MEGABITS
-ratio
+       - _time
+       - IP_ADDRESS
+       - DOWNLOAD_MEGABITS
+       - UPLOAD_MEGABITS
+       - ratio
 
 Hint: Use the following format when for the table command: | table fieldA  fieldB fieldC
 
