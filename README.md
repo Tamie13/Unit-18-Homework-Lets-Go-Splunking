@@ -54,11 +54,12 @@ How long did it take your systems to recover?
 
 ![TODO](https://github.com/Tamie13/Unit-18-Homework-Lets-Go-Splunking/blob/main/Unit%2018%20HW%20screenshots/Line%20Chart%20by%20table%20stats.png)
 
-Step 2: Are We Vulnerable?
-Background:  Due to the frequency of attacks, your manager needs to be sure that sensitive customer data on their servers is not vulnerable. Since Vandalay uses Nessus vulnerability scanners, you have pulled the last 24 hours of scans to see if there are any critical vulnerabilities.
+
+**Step 2: Are We Vulnerable?**
+
+-  Background:  Due to the frequency of attacks, your manager needs to be sure that sensitive customer data on their servers is not vulnerable. Since Vandalay uses Nessus vulnerability scanners, you have pulled the last 24 hours of scans to see if there are any critical vulnerabilities.
 
 For more information on Nessus, read the following link: https://www.tenable.com/products/nessus
-
 
 Task: Create a report determining how many critical vulnerabilities exist on the customer data server. Then, build an alert to notify your team if a critical vulnerability reappears on this server.
 
@@ -73,12 +74,17 @@ Create a report that shows the count of critical vulnerabilities from the custom
 The database server IP is 10.11.36.23.
 The field that identifies the level of vulnerabilities is severity.
 
-![TODO]()
+**Report belows shows the count of critical vulnerabilities found for the db server IP 10.11.36.23**
+
+![TODO](https://github.com/Tamie13/Unit-18-Homework-Lets-Go-Splunking/blob/main/Unit%2018%20HW%20screenshots/Nessus%20Critical%20Vulnerability%20Report.png)
 
 Build an alert that monitors every day to see if this server has any critical vulnerabilities. If a vulnerability exists, have an alert emailed to soc@vandalay.com.
 
+**Alert generated to monitor daily and alert if the server has any critical vulenrabilities above the normal baseline.  The alert was set to trigger and email soc@vandalay.com**
 
-Submit a screenshot of your report and a screenshot of proof that the alert has been created.
+![TODO](https://github.com/Tamie13/Unit-18-Homework-Lets-Go-Splunking/blob/main/Unit%2018%20HW%20screenshots/Vulnerability%20Alert.png)
+
+
 
 Step 3: Drawing the (base)line
 Background:  A Vandaly server is also experiencing brute force attacks into their administrator account. Management would like you to set up monitoring to notify the SOC team if a brute force attack occurs again.
