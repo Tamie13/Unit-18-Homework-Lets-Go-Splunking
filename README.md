@@ -21,7 +21,7 @@ You are tasked with developing searches, custom reports and alerts to monitor Va
 
 - Not only were web servers taken offline by a DDOS attack, but upload and download speed were also significantly impacted after the outage. Your networking team provided results of a network speed run around the time of the latest DDOS attack.
 
--  Task: Create a report to determine the impact that the DDOS attack had on download and upload speed. Additionally, create an additional field to calculate the ratio of the upload speed to the download speed.
+*Task: Create a report to determine the impact that the DDOS attack had on download and upload speed. Additionally, create an additional field to calculate the ratio of the upload speed to the download speed.*
 
 
     -  Using the eval command, create a field called ratio that shows the ratio between the upload and download speeds.
@@ -47,6 +47,7 @@ You are tasked with developing searches, custom reports and alerts to monitor Va
 Based on the report created, what is the approximate date and time of the attack?
 How long did it take your systems to recover?
 
+-  **ANSWER/s:**
   -  According to the charts and table the lowest speeds recorded was at 2:30 PM of 7.87 megabits download speed and 1.83 megabits upload speed.  Recovery started at that time and by 11:30 PM both download and uploads speeds had recovered to 122.91 megabits download and 7.51 megabits upload.  It took 9 hours for the system to return to normal speed/s.  (See Image Below)
 
 
@@ -61,15 +62,10 @@ How long did it take your systems to recover?
 
 For more information on Nessus, read the following link: https://www.tenable.com/products/nessus
 
-Task: Create a report determining how many critical vulnerabilities exist on the customer data server. Then, build an alert to notify your team if a critical vulnerability reappears on this server.
+*Task: Create a report determining how many critical vulnerabilities exist on the customer data server. Then, build an alert to notify your team if a critical vulnerability reappears on this server.*
 
 
-Upload the following file from the Nessus vulnerability scan.
-
-Nessus Scan Results
-
-
-Create a report that shows the count of critical vulnerabilities from the customer database server.
+*Create a report that shows the count of critical vulnerabilities from the customer database server.*
 
 The database server IP is 10.11.36.23.
 The field that identifies the level of vulnerabilities is severity.
@@ -86,26 +82,14 @@ Build an alert that monitors every day to see if this server has any critical vu
 
 
 
-Step 3: Drawing the (base)line
+**Step 3: Drawing the (base)line**
+
 Background:  A Vandaly server is also experiencing brute force attacks into their administrator account. Management would like you to set up monitoring to notify the SOC team if a brute force attack occurs again.
-Task: Analyze administrator logs that document a brute force attack. Then, create a baseline of the ordinary amount of administrator bad logins and determine a threshold to indicate if a brute force attack is occurring.
 
-
-Upload the administrator login logs.
-
-Admin Logins
-
+*Task: Analyze administrator logs that document a brute force attack. Then, create a baseline of the ordinary amount of administrator bad logins and determine a threshold to indicate if a brute force attack is occurring.*
 
 
 When did the brute force attack occur?
-
-Hints:
-
-Look for the name field to find failed logins.
-Note the attack lasted several hours.
-
-
-
 
 
 Determine a baseline of normal activity and a threshold that would alert if a brute force attack is occurring.
