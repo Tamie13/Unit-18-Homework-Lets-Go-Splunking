@@ -76,7 +76,7 @@ The field that identifies the level of vulnerabilities is severity.
 
 Build an alert that monitors every day to see if this server has any critical vulnerabilities. If a vulnerability exists, have an alert emailed to soc@vandalay.com.
 
-**Alert generated to monitor daily and alert if the server has any critical vulenrabilities above the normal baseline.  The alert was set to trigger and email soc@vandalay.com**
+**Alert generated to monitor daily and alert if the server has `any` critical vulenrabilities.  The alert was set to trigger and email soc@vandalay.com**
 
 ![TODO](https://github.com/Tamie13/Unit-18-Homework-Lets-Go-Splunking/blob/main/Unit%2018%20HW%20screenshots/Vulnerability%20Alert.png)
 
