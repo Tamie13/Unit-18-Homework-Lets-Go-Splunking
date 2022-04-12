@@ -40,7 +40,7 @@ You are tasked with developing searches, custom reports and alerts to monitor Va
 
 **Table Showing `TIME` `IP_ADDRESS` `DOWNLOAD_MEGABITS` `UPLOAD_MEGABITS` AND `RATIO`:
 
-![TODO](https://github.com/Tamie13/Unit-18-Homework-Lets-Go-Splunking/blob/main/Unit%2018%20HW%20screenshots/Splunk%20Table%20Command.png)
+![TODO]()
 
 **Answer the following questions:**
 
