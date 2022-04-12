@@ -89,22 +89,19 @@ Background:  A Vandaly server is also experiencing brute force attacks into thei
 *Task: Analyze administrator logs that document a brute force attack. Then, create a baseline of the ordinary amount of administrator bad logins and determine a threshold to indicate if a brute force attack is occurring.*
 
 
-When did the brute force attack occur?
+**When did the brute force attack occur?**
+    -  According to scans and charts the brute forece attack started around 9:00 AM and seems to have ended around 2:30 PM.  At 8:00 AM there were 9 failed login attempts.  By 9:00AM the number of failed login attempts jumped to 65, at 1:00 PM the number of failed login attempts was 71 and by 2:30 PM the numbered had dropped back down to 4 failed login attempts.
 
+  -  Determine a baseline of normal activity and a threshold that would alert if a brute force attack is occurring.
+        -  The lowest number of failed logins recorded by an account was 4 and the highest over time was 13 before the attempts started to increase exponentially.  The difference between the two established a baseline of 9.  Originally, the threshold set to trigger an alert was 35 but after more consideration it was determined that a safer threshold should be lower so the alert was later changed to trigger an alert at 25. (Image of alert seen below prior to changing threshold to 25.)
+  
+**Alert**
 
-Determine a baseline of normal activity and a threshold that would alert if a brute force attack is occurring.
+![TODO](https://github.com/Tamie13/Unit-18-Homework-Lets-Go-Splunking/blob/main/Unit%2018%20HW%20screenshots/Failed%20Login%20Alert.png)
 
+**An Account Failed To Login Count**
 
-Design an alert to check the threshold every hour and email the SOC team at SOC@vandalay.com if triggered.
-
-
-Submit the answers to the questions about the brute force timing, baseline and threshold. Additionally, provide a screenshot as proof that the alert has been created.
-
-Your Submission
-In a word document, provide the following:
-
-Answers to all questions where indicated.
-Screenshots where indicated.
+![TODO](https://github.com/Tamie13/Unit-18-Homework-Lets-Go-Splunking/blob/main/Unit%2018%20HW%20screenshots/Name%20Field%20Screenshot.png)
 
 
 © 2020 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
