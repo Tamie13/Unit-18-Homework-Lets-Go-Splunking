@@ -76,7 +76,7 @@ The field that identifies the level of vulnerabilities is severity.
 
 Build an alert that monitors every day to see if this server has any critical vulnerabilities. If a vulnerability exists, have an alert emailed to soc@vandalay.com.
 
-**Alert generated to monitor daily and alert if the server has `any` critical vulenrabilities.  The alert was set to trigger and email soc@vandalay.com**
+**Alert generated to monitor daily and alert if the server has `ANY` critical vulenrabilities.  The alert was set to trigger and email soc@vandalay.com**
 
 ![TODO](https://github.com/Tamie13/Unit-18-Homework-Lets-Go-Splunking/blob/main/Unit%2018%20HW%20screenshots/Vulnerability%20Alert.png)
 
@@ -95,7 +95,7 @@ Background:  A Vandaly server is also experiencing brute force attacks into thei
   -  Determine a baseline of normal activity and a threshold that would alert if a brute force attack is occurring.
         -  The lowest number of failed logins recorded by an account was 4 and the highest over time was 13 before the attempts started to increase exponentially.  The difference between the two established a baseline of 9.  Originally, the threshold set to trigger an alert was 35 but after more consideration it was determined that a safer threshold should be lower so the alert was later changed to trigger an alert at 25. (Image of alert seen below prior to changing threshold to 25.)
   
-**Alert**
+**Alert Set To Trigger Hourly**
 
 ![TODO](https://github.com/Tamie13/Unit-18-Homework-Lets-Go-Splunking/blob/main/Unit%2018%20HW%20screenshots/Failed%20Login%20Alert.png)
 
