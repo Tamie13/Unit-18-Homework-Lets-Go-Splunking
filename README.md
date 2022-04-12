@@ -47,7 +47,7 @@ You are tasked with developing searches, custom reports and alerts to monitor Va
 Based on the report created, what is the approximate date and time of the attack?
 How long did it take your systems to recover?
 
-  -  According to the charts and table the lowest speed recorded was at 2:30 PM of 7.87 megabits.  Recovery started at that time and by 11:30 PM had recovered to a speed of 122.91 megabits.  It took 9 hours for the system to return to normal speed/s.
+  -  According to the charts and table the lowest speeds recorded was at 2:30 PM of 7.87 megabits download speed and 1.83 megabits upload speed.  Recovery started at that time and by 11:30 PM both download and uploads speeds had recovered to 122.91 megabits download and 7.51 megabits upload.  It took 9 hours for the system to return to normal speed/s.  (See Image Below)
 
 
 **Table Showing Recovery Time**
@@ -68,13 +68,12 @@ Upload the following file from the Nessus vulnerability scan.
 Nessus Scan Results
 
 
-
 Create a report that shows the count of critical vulnerabilities from the customer database server.
 
 The database server IP is 10.11.36.23.
 The field that identifies the level of vulnerabilities is severity.
 
-
+![TODO]()
 
 Build an alert that monitors every day to see if this server has any critical vulnerabilities. If a vulnerability exists, have an alert emailed to soc@vandalay.com.
 
