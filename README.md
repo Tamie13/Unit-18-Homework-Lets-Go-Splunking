@@ -52,7 +52,7 @@ How long did it take your systems to recover?
 
 **Table Showing Recovery Time**
 
-![TODO](https://github.com/Tamie13/Unit-18-Homework-Lets-Go-Splunking/blob/main/Unit%2018%20HW%20screenshots/Speed%20Test%20Area%20Chart.png)
+![TODO](https://github.com/Tamie13/Unit-18-Homework-Lets-Go-Splunking/blob/main/Unit%2018%20HW%20screenshots/Line%20Chart%20by%20table%20stats.png)
 
 Step 2: Are We Vulnerable?
 Background:  Due to the frequency of attacks, your manager needs to be sure that sensitive customer data on their servers is not vulnerable. Since Vandalay uses Nessus vulnerability scanners, you have pulled the last 24 hours of scans to see if there are any critical vulnerabilities.
