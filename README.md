@@ -34,6 +34,14 @@ You are tasked with developing searches, custom reports and alerts to monitor Va
        - ratio
 
 
+**Eval Command Used to Show Ratio Between Upload and Download Speeds:**
+
+![TODO](https://github.com/Tamie13/Unit-18-Homework-Lets-Go-Splunking/blob/main/Unit%2018%20HW%20screenshots/Upload%20:%20Download%20Field.png)
+
+**Table Showing `TIME` `IP_ADDRESS` `DOWNLOAD_MEGABITS` `UPLOAD_MEGABITS` AND `RATIO`:
+
+![TODO](https://github.com/Tamie13/Unit-18-Homework-Lets-Go-Splunking/blob/main/Unit%2018%20HW%20screenshots/Splunk%20Table%20Command.png)
+
 **Answer the following questions:**
 
 Based on the report created, what is the approximate date and time of the attack?
