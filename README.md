@@ -40,14 +40,19 @@ You are tasked with developing searches, custom reports and alerts to monitor Va
 
 **Table Showing `TIME` `IP_ADDRESS` `DOWNLOAD_MEGABITS` `UPLOAD_MEGABITS` AND `RATIO`:
 
-![TODO]()
+![TODO](https://github.com/Tamie13/Unit-18-Homework-Lets-Go-Splunking/blob/main/Unit%2018%20HW%20screenshots/Speed%20Test%20Table.png)
 
 **Answer the following questions:**
 
 Based on the report created, what is the approximate date and time of the attack?
 How long did it take your systems to recover?
 
-Submit a screen shot of your report and the answer to the questions above.
+  -  According to the charts and table the lowest speed recorded was at 2:30 PM of 7.87 megabits.  Recovery started at that time and by 11:30 PM had recovered to a speed of 122.91 megabits.  It took 9 hours for the system to return to normal speed/s.
+
+
+**Table Showing Recovery Time**
+
+![TODO](https://github.com/Tamie13/Unit-18-Homework-Lets-Go-Splunking/blob/main/Unit%2018%20HW%20screenshots/Speed%20Test%20Area%20Chart.png)
 
 Step 2: Are We Vulnerable?
 Background:  Due to the frequency of attacks, your manager needs to be sure that sensitive customer data on their servers is not vulnerable. Since Vandalay uses Nessus vulnerability scanners, you have pulled the last 24 hours of scans to see if there are any critical vulnerabilities.
